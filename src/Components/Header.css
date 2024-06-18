@@ -1,0 +1,140 @@
+/* Header.css */
+.navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #E6E6DC;
+    color: #2B2B2B;
+  }
+  
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .container-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .container-block button{
+    display: flex;
+justify-content: flex-end;  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 30px;
+  }
+  
+  .navbar-toggler {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #2B2B2B;
+    cursor: pointer;
+  }
+  
+  
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+
+  .navbar-brand1:hover{
+cursor: pointer;
+  }
+.navbar-nav1:hover{
+  cursor: pointer;
+}
+
+  /* styles.css */
+.navbar-nav1 {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+    margin-right: 10px;
+ 
+  }
+  
+  .nav-item1 {
+    margin-right: 10px;
+  }
+  
+  .dropdown {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dropdown:focus {
+    outline: none;
+    border-color: #1c1c1c;
+  }
+  
+  .search-button1 {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #1c1c1c;
+    background-color: #2B2B2B;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .search-button1:hover {
+    background-color: #353434;
+    border-color: #1c1c1c;
+  }
+  
+  .search-button1:focus {
+    outline: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .navbar-collapse.open {
+      display: flex;
+    }
+  
+    .navbar-toggler {
+      display: block;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-item {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .dropdown,
+    .search-button {
+      width: 100%;
+    }
+  }
+  /* @media (max-width: 400px){
+    .container1 {
+        display: block;
+      }
+  } */
+  

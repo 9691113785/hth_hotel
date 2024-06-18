@@ -1,0 +1,82 @@
+.container-hotel{
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(182, 178, 178);
+    padding: 2%;
+ background-color: white;
+}
+
+.span-name{
+    color: rgb(212, 133, 69);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexbox>div{
+    border: 1px solid rgb(182, 178, 178);
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    width: 21%;
+    
+}
+.flexbox>div:hover{
+    box-shadow: 1px 1px 15px gray;
+}
+.img_container{
+    widows: 100%;
+    margin: 0px;
+    height: 150px;
+   
+}
+.img_container>img{
+    width: 100%;
+    height: 150px;
+}
+.flexbox>div>button{
+    width: 90%;
+    margin: 1% 5%;
+    background-color: white;
+    color: rgb(212, 133, 69);
+    border: 2px solid rgb(212, 133, 69);
+    padding: 2% 10%;
+    
+}
+.flexbox>div>button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.flexbox>div>p{
+    width: 90%;
+    margin: 10px auto;
+
+}
+
+@media (max-width: 768px){
+    .flexbox{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flexbox>div{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media (max-width: 400px){
+    .flexbox{
+        flex-direction: column;
+    }
+    .flexbox>div{
+        width: 90%;
+        margin: auto;
+    }
+}

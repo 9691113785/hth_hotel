@@ -1,0 +1,31 @@
+/* Footer.css */
+.footer {
+    background-color: #E6E6DC;
+    /* Equivalent to bg-dark */
+    padding-top: 1rem; /* Equivalent to pt-3 */
+    color: black;
+    padding: 2%;
+  }
+  
+  .footer .container {
+    color: black; /* Ensure text is white */
+  }
+  
+  .footer h5 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer .logo-container img {
+    width: 150px;
+  }
+  
